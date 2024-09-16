@@ -1,0 +1,13 @@
+body {
+    font-size: 16px; /* Tamaño por defecto */
+}
+@media (max-width: 768px) {
+body {
+    font-size: 14px; /* Tamaño más pequeño en tablets */
+    }
+}
+@media (max-width: 480px) {
+body {
+    font-size: 12px; /* Tamaño más pequeño en móviles */
+    }
+}
